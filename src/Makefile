@@ -39,4 +39,4 @@ install: combined latex-pdf ${DIST_DIR}
 clean: ${BUILD_DIR}
 	rm -Rf ${BUILD_DIR}/*
 	rm -Rf ${BUILD_DIR}/../cryptoparty-handbook-html
-	find -type l -delete
+	find ${BUILD_DIR} -type l -delete
