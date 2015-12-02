@@ -10,6 +10,8 @@ For building the handbook artifacts (PDF, LaTeX, EPUB etc...) the following prer
  - GNU make
  - pandoc
  - pdflatex
+ - Calibre
+ - BeautifulSoup
 
 On Ubuntu all prerequisites can be installed with the following line:
 
