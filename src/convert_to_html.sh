@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # requires python-beautifulsoup4 / python-bs4
 
