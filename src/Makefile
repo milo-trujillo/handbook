@@ -34,7 +34,7 @@ install: combined latex-pdf ${DIST_DIR}
 	./convert_to_epub.sh
 	./convert_to_html.sh
 	(cd ${DIST_DIR}; zip -9qr cryptoparty-handbook-${DATE}-html.zip cryptoparty-handbook-${DATE})
-	(cd ${DIST_DIR}; sha256sum cryptoparty-handbook-${DATE}.* cryptoparty-handbook-${DATE}-html.zip > SHA256SUM)
+	(cd ${DIST_DIR}; shasum -a 256 cryptoparty-handbook-${DATE}.* cryptoparty-handbook-${DATE}-html.zip > SHA256SUM)
 
 clean: ${BUILD_DIR}
 	rm -Rf ${BUILD_DIR}/*
